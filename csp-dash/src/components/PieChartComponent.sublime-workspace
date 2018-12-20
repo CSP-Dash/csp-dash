@@ -1,0 +1,254 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"product",
+				"productNames\tArray<any>"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"Package Control: ",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Contr",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 0.0,
+		"history":
+		[
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/C/Users/WeCanCodeIT/wcci/code/fleet-tracker/fleet-tracker/src/components/BarChartComponent.js",
+		"/C/Users/WeCanCodeIT/wcci/code/fleet-tracker/fleet-tracker/src/components/PieChartComponent.js",
+		"/C/Users/WeCanCodeIT/wcci/default-workspace/mychart/mychart/index.html",
+		"/C/Users/WeCanCodeIT/wcci/code/fleet-tracker/fleet-tracker/src/style.css",
+		"/C/Users/WeCanCodeIT/wcci/code/fleet-tracker/fleet-tracker/src/components/LineChartComponent.js",
+		"/C/Users/WeCanCodeIT/wcci/code/fleet-tracker/fleet-tracker/src/components/Uploader.js",
+		"/C/Users/WeCanCodeIT/wcci/code/fleet-tracker/fleet-tracker/src/components/HorizontalBarChartComponent.js",
+		"/C/Users/WeCanCodeIT/wcci/code/fleet-tracker/fleet-tracker/src/components/MilesChart.js",
+		"/C/Users/WeCanCodeIT/wcci/code/fleet-tracker/fleet-tracker/src/components/RevenueChart.js",
+		"/C/Users/WeCanCodeIT/wcci/code/fleet-tracker/fleet-tracker/src/components/Employees.js",
+		"/C/Users/WeCanCodeIT/wcci/code/fleet-tracker/fleet-tracker/src/App.js",
+		"/C/Users/WeCanCodeIT/wcci/code/fleet-tracker/fleet-tracker/src/components/Dashboard.js",
+		"/C/Users/WeCanCodeIT/wcci/code/fleet-tracker/fleet-tracker/src/components/FedExAssignments.js",
+		"/C/Users/WeCanCodeIT/wcci/code/fleet-tracker/fleet-tracker/src/components/Calculations.js",
+		"/C/Users/WeCanCodeIT/wcci/code/fleet-tracker/fleet-tracker/src/components/Companies.js",
+		"/C/Users/WeCanCodeIT/wcci/code/another-v4-dashboard/src/components/BarChartComponent.js",
+		"/C/Users/WeCanCodeIT/wcci/code/another-v4-dashboard/src/components/PieChartComponent.js",
+		"/C/Users/WeCanCodeIT/wcci/code/another-v4-dashboard/src/components/HorizontalBarChartComponent.js",
+		"/C/Users/WeCanCodeIT/wcci/code/another-v4-dashboard/src/components/LineChartComponent.js",
+		"/C/Users/WeCanCodeIT/wcci/code/another-v4-dashboard/src/App.css",
+		"/C/Users/WeCanCodeIT/wcci/code/another-v4-dashboard/public/index.html",
+		"/C/Users/WeCanCodeIT/wcci/code/another-v4-dashboard/package.json",
+		"/C/Users/WeCanCodeIT/wcci/code/another-v4-dashboard/node_modules/html-webpack-plugin/index.js",
+		"/C/Users/WeCanCodeIT/wcci/code/another-v4-dashboard/yarn.lock",
+		"/C/Users/WeCanCodeIT/wcci/code/another-v4-dashboard/src/components/Chart.js",
+		"/C/Users/WeCanCodeIT/wcci/code/another-v4-dashboard/public/manifest.json",
+		"/C/Users/WeCanCodeIT/wcci/code/another-v4-dashboard/src/serviceWorker.js",
+		"/C/Users/WeCanCodeIT/wcci/code/another-v4-dashboard/.gitignore",
+		"/C/Users/WeCanCodeIT/wcci/code/another-v2-dashboard/package.json",
+		"/C/Users/WeCanCodeIT/wcci/code/first-dashboard/src/index.js",
+		"/C/Users/WeCanCodeIT/wcci/code/simple-react-graph/public/index.html",
+		"/C/Users/WeCanCodeIT/wcci/code/simple-react-graph/src/index.js",
+		"/C/Users/WeCanCodeIT/wcci/code/simple-react-graph/src/logo.svg",
+		"/C/Users/WeCanCodeIT/wcci/code/simple-react-graph/src/serviceWorker.js",
+		"/C/Users/WeCanCodeIT/wcci/code/mern-grocery-list/server.js",
+		"/C/Users/WeCanCodeIT/wcci/code/task-manager-react-app/src/App.css",
+		"/C/Users/WeCanCodeIT/wcci/code/weather-react-app/src/components/Weather.js",
+		"/C/Users/WeCanCodeIT/wcci/code/weather-react-app/src/App.css",
+		"/C/Users/WeCanCodeIT/wcci/code/weather-react-app/src/index.css",
+		"/C/Users/WeCanCodeIT/wcci/code/weather-react-app/src/components/Form.js",
+		"/C/Users/WeCanCodeIT/wcci/code/weather-react-app/src/components/Title.js",
+		"/C/Users/WeCanCodeIT/wcci/code/weather-react-app/src/index.js",
+		"/C/Users/WeCanCodeIT/wcci/default-workspace/ajaxcrash/ajaxcrash/ajax1.html",
+		"/C/Users/WeCanCodeIT/wcci/default-workspace/ajaxcrash/ajaxcrash/ajax2.html",
+		"/C/Users/WeCanCodeIT/wcci/default-workspace/ajaxcrash/ajaxcrash/ajax3.html",
+		"/C/Users/WeCanCodeIT/wcci/default-workspace/ajaxcrash/ajaxcrash/ajax4.html",
+		"/C/Users/WeCanCodeIT/wcci/default-workspace/ajaxcrash/ajaxcrash/app.html",
+		"/D/fetchsandbox/fetchsandbox/index.html",
+		"/C/Users/WeCanCodeIT/wcci/default-workspace/ajaxcrash/ajaxcrash/users.json",
+		"/C/Users/WeCanCodeIT/wcci/default-workspace/ajaxcrash/ajaxcrash/ajax5.html",
+		"/C/Users/WeCanCodeIT/wcci/code/filterablelist/index.html",
+		"/C/Users/WeCanCodeIT/wcci/code/KingBoolean89.github.io/index.html",
+		"/C/Users/WeCanCodeIT/wcci/default-workspace/ajaxcrash/ajaxcrash/index.html",
+		"/C/Users/WeCanCodeIT/wcci/code/fullstack-review-site/src/main/resources/templates/category.html",
+		"/C/Users/WeCanCodeIT/wcci/code/fullstack-review-site/src/main/resources/templates/reviews/index.html",
+		"/C/Users/WeCanCodeIT/wcci/code/fullstack-review-site/src/main/resources/static/css/categories.css",
+		"/C/Users/WeCanCodeIT/wcci/code/fullstack-review-site/src/main/resources/templates/categories.html",
+		"/D/From Scratch/index.html",
+		"/C/Users/WeCanCodeIT/wcci/code/jest-demo/src/main/resources/static/js/app.js",
+		"/C/Users/WeCanCodeIT/wcci/code/fullstack-review-site/src/main/resources/static/css/category.css",
+		"/C/Users/WeCanCodeIT/wcci/code/fullstack-review-site/src/main/resources/templates/reviews/review.html",
+		"/C/Users/WeCanCodeIT/wcci/code/fullstack-review-site/src/main/resources/static/css/style.css",
+		"/C/Users/WeCanCodeIT/wcci/code/flexbox-practice-exercise/src/main/resources/static/index.html",
+		"/C/Users/WeCanCodeIT/wcci/code/flexbox-practice-exercise/src/main/resources/static/css/layout.css",
+		"/C/Users/WeCanCodeIT/wcci/code/flexbox-practice-exercise/src/main/resources/static/css/style.css",
+		"/C/Users/WeCanCodeIT/wcci/code/contact-list/src/main/resources/templates/contact.html",
+		"/C/Users/WeCanCodeIT/wcci/code/contact-list/src/main/resources/templates/contacts.html",
+		"/C/Users/WeCanCodeIT/wcci/code/KingBoolean89.github.io/css/cssanimations/cssanimations/landing.html",
+		"/C/Users/WeCanCodeIT/wcci/code/KingBoolean89.github.io/css/cssanimations/cssanimations/landing.css",
+		"/C/Users/WeCanCodeIT/wcci/code/KingBoolean89.github.io/css/cssanimations/cssanimations/keyframes.css",
+		"/C/Users/WeCanCodeIT/wcci/code/KingBoolean89.github.io/css/cssanimations/cssanimations/transitions.css",
+		"/C/Users/WeCanCodeIT/wcci/code/KingBoolean89.github.io/images/cssanimations.zip",
+		"/C/Users/WeCanCodeIT/wcci/code/KingBoolean89.github.io/images/mendar-bouchali-471177-unsplash.jpg",
+		"/C/Users/WeCanCodeIT/wcci/code/css-demo/src/main/resources/static/css/styles.css",
+		"/C/Users/WeCanCodeIT/wcci/code/css-demo/src/main/resources/static/index.html",
+		"/C/Users/WeCanCodeIT/wcci/code/yucel-moran-453145-unsplash - Copy.jpg",
+		"/C/Users/WeCanCodeIT/bin/createBasicJavaProject",
+		"/C/Users/WeCanCodeIT/.lazybones/config.groovy"
+	],
+	"find":
+	{
+		"height": 27.0
+	},
+	"find_in_files":
+	{
+		"height": 104.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 27.0
+	},
+	"input":
+	{
+		"height": 39.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "PieChartComponent.sublime-project",
+	"replace":
+	{
+		"height": 50.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": false,
+	"side_bar_width": 50.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

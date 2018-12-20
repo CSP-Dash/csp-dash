@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
-import {Pie} from 'react-chartjs-2';
+import {Polar} from 'react-chartjs-2';
 
 
-export default class PieChartComponent extends Component
+export default class PolarChartComponent extends Component
 {
   constructor(props) {
       super(props);
@@ -24,8 +24,9 @@ export default class PieChartComponent extends Component
               truckNumber.push(element.truckNumber);
               truckMileage.push(element.mileage);
             });
-            this.setState({ 
+            this.setState({
               data: {
+            
                 labels: truckNumber,
                 datasets:[
                    {
@@ -55,16 +56,41 @@ export default class PieChartComponent extends Component
              });
           })
       }
+    
  render()
    {
       return(
         <div className="chart">
-        <h1>PieChart</h1>
-          <Pie
+          <Polar
             // height = {240}
             // width = {240}
             data = {this.state.data}
-            options = {{ maintainAspectRatio: true }} />
+            options = {{ title:{
+          display:true,
+          text:'Compare Truck Mileage',
+          fontSize:25,
+          fontColor:'#fff'
+        },
+        legend:{
+          display:true,
+          position:'right',
+          labels:{
+            fontColor:'#fff'
+          }
+        },
+        layout:{
+          padding:{
+            left:20,
+            right:0,
+            bottom:0,
+            top:0
+          }
+        },
+        tooltips:{
+          enabled:true
+        }
+      }
+    } />
         </div>
       )
    }
