@@ -1,7 +1,8 @@
-package org.wecancodeit.fleettracker.repositories;
+package cspdash.repositories;
 
 import org.springframework.data.repository.CrudRepository;
-import org.wecancodeit.fleettracker.models.Trip;
+
+import cspdash.models.Trip;
 
 public interface TripRepository extends CrudRepository<Trip, Long> {
 

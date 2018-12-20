@@ -1,7 +1,8 @@
-package org.wecancodeit.fleettracker.repositories;
+package cspdash.repositories;
 
 import org.springframework.data.repository.CrudRepository;
-import org.wecancodeit.fleettracker.models.FuelPurchase;
+
+import cspdash.models.FuelPurchase;
 
 public interface FuelPurchaseRepository extends CrudRepository<FuelPurchase, Long> {
 

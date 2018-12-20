@@ -10,7 +10,9 @@ import org.junit.Test;
 import org.junit.runner.RunWith;
 import org.springframework.boot.test.autoconfigure.orm.jpa.DataJpaTest;
 import org.springframework.test.context.junit4.SpringRunner;
-import org.wecancodeit.fleettracker.models.Employee;
+
+import cspdash.models.Employee;
+import cspdash.repositories.EmployeeRepository;
 
 @RunWith(SpringRunner.class)
 @DataJpaTest

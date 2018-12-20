@@ -18,10 +18,12 @@ import org.springframework.boot.test.mock.mockito.MockBean;
 import org.springframework.http.MediaType;
 import org.springframework.test.context.junit4.SpringRunner;
 import org.springframework.test.web.servlet.MockMvc;
-import org.wecancodeit.fleettracker.models.Company;
-import org.wecancodeit.fleettracker.models.Employee;
-import org.wecancodeit.fleettracker.models.Trip;
-import org.wecancodeit.fleettracker.models.Truck;
+
+import cspdash.controller.ApiController;
+import cspdash.models.Company;
+import cspdash.models.Employee;
+import cspdash.models.Trip;
+import cspdash.models.Truck;
 
 @RunWith(SpringRunner.class)
 @WebMvcTest(ApiController.class)

@@ -1,4 +1,4 @@
-package org.wecancodeit.fleettracker;
+package cspdash;
 
 import java.util.ArrayList;
 import java.util.Arrays;
@@ -7,21 +7,22 @@ import javax.annotation.Resource;
 
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.stereotype.Service;
-import org.wecancodeit.fleettracker.models.Company;
-import org.wecancodeit.fleettracker.models.Employee;
-import org.wecancodeit.fleettracker.models.FedExAssignment;
-import org.wecancodeit.fleettracker.models.FuelPurchase;
-import org.wecancodeit.fleettracker.models.Trip;
-import org.wecancodeit.fleettracker.models.Truck;
-import org.wecancodeit.fleettracker.repositories.CompanyRepository;
-import org.wecancodeit.fleettracker.repositories.EmployeeRepository;
-import org.wecancodeit.fleettracker.repositories.FedExAssignmentRepository;
-import org.wecancodeit.fleettracker.repositories.FuelPurchaseRepository;
-import org.wecancodeit.fleettracker.repositories.TripRepository;
-import org.wecancodeit.fleettracker.repositories.TruckRepository;
+
+import cspdash.models.Company;
+import cspdash.models.Employee;
+import cspdash.models.FedExAssignment;
+import cspdash.models.FuelPurchase;
+import cspdash.models.Trip;
+import cspdash.models.Truck;
+import cspdash.repositories.CompanyRepository;
+import cspdash.repositories.EmployeeRepository;
+import cspdash.repositories.FedExAssignmentRepository;
+import cspdash.repositories.FuelPurchaseRepository;
+import cspdash.repositories.TripRepository;
+import cspdash.repositories.TruckRepository;
 
 @Service
-public class FleetTrackerPopulator implements CommandLineRunner {
+public class CSPDashPopulator implements CommandLineRunner {
 
 	@Resource
 	CompanyRepository companyRepo;

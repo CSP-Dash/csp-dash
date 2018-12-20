@@ -1,12 +1,12 @@
-package org.wecancodeit.fleettracker;
+package cspdash;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class FleetTrackerApplication {
+public class CSPDashApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(FleetTrackerApplication.class, args);
+		SpringApplication.run(CSPDashApplication.class, args);
 	}
 }

@@ -1,7 +1,8 @@
-package org.wecancodeit.fleettracker.repositories;
+package cspdash.repositories;
 
 import org.springframework.data.repository.CrudRepository;
-import org.wecancodeit.fleettracker.models.Employee;
+
+import cspdash.models.Employee;
 
 public interface EmployeeRepository extends CrudRepository<Employee, Long> {
 

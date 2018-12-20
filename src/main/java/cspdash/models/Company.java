@@ -1,4 +1,4 @@
-package org.wecancodeit.fleettracker.models;
+package cspdash.models;
 
 import java.util.Collection;
 import java.util.HashSet;

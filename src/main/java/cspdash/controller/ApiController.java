@@ -1,4 +1,4 @@
-package org.wecancodeit.fleettracker.controller;
+package cspdash.controller;
 
 import java.util.Collection;
 import java.util.Optional;
@@ -13,18 +13,19 @@ import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
-import org.wecancodeit.fleettracker.models.Company;
-import org.wecancodeit.fleettracker.models.Employee;
-import org.wecancodeit.fleettracker.models.FedExAssignment;
-import org.wecancodeit.fleettracker.models.FuelPurchase;
-import org.wecancodeit.fleettracker.models.Trip;
-import org.wecancodeit.fleettracker.models.Truck;
-import org.wecancodeit.fleettracker.repositories.CompanyRepository;
-import org.wecancodeit.fleettracker.repositories.EmployeeRepository;
-import org.wecancodeit.fleettracker.repositories.FedExAssignmentRepository;
-import org.wecancodeit.fleettracker.repositories.FuelPurchaseRepository;
-import org.wecancodeit.fleettracker.repositories.TripRepository;
-import org.wecancodeit.fleettracker.repositories.TruckRepository;
+
+import cspdash.models.Company;
+import cspdash.models.Employee;
+import cspdash.models.FedExAssignment;
+import cspdash.models.FuelPurchase;
+import cspdash.models.Trip;
+import cspdash.models.Truck;
+import cspdash.repositories.CompanyRepository;
+import cspdash.repositories.EmployeeRepository;
+import cspdash.repositories.FedExAssignmentRepository;
+import cspdash.repositories.FuelPurchaseRepository;
+import cspdash.repositories.TripRepository;
+import cspdash.repositories.TruckRepository;
 
 @CrossOrigin
 @RestController
