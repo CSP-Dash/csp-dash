@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import {render} from 'react-dom';
 import Trucks from './components/Trucks';
 import Trips from './components/Trips';
 import Employees from './components/Employees';
@@ -9,21 +10,25 @@ import Calculations from './components/Calculations';
 import Dashboard from './components/Dashboard';
 import Uploader from './components/Uploader';
 import logo from './cspdashlogo.png';
+import { Collapse, Navbar, NavbarToggler,ButtonGroup, NavbarBrand, Nav,Button, NavItem, NavLink } from 'reactstrap';
 
 
 class App extends Component {
     constructor() {
         super()
         this.state = {
+            mobileOpen: false,
             trucks: [],
             trips: [],
             employees: [],
             fuelPurchases: [],
             fedExAssignments: [],
             companies: [],
-            currentView: 'dash'
+            currentView: 'dash',
+            collapsed: true
 
         }
+        this.toggleNavbar = this.toggleNavbar.bind(this)
     }
 
     getCompanies() {
@@ -74,6 +79,11 @@ class App extends Component {
                 this.setState({ trips: data })
             })
     }
+    toggleNavbar() {
+        this.setState({
+          collapsed: !this.state.collapsed
+        });
+      }
 
     componentWillMount() {
         this.getTrucks()
@@ -123,30 +133,39 @@ class App extends Component {
      setUpload = ( ) => {
         this.setState({ currentView: 'upload' })
     }
-
+    handleDrawerToggle = () => {
+        this.setState(state => ({ mobileOpen: !state.mobileOpen }));
+      };
 
     render() {
-
+       
         return (
             <div className="App">
-                
+               
                 <header>
-                    <nav>
-
-                        <button className="dash" onClick={this.setDash}>Dashboard</button>
-
-                        <button className="trucks" onClick={this.setTrucks}>Trucks</button>
-                        <button className="trips" onClick={this.setTrips}>Trips</button>
-                        <button className="employees" onClick={this.setEmployees}>Employees</button>
-                        <button className="fuelPurchases" onClick={this.setFuelPurchases}>Fuel Purchases</button>
-                        <button className="fedExAssignments" onClick={this.setFedExAssignments}>Assignments</button>
-                        <button className="companies" onClick={this.setCompanies}>Companies</button>
-                        <button className="calculations" onClick={this.setCalculations}>Calculations</button>
-                        <button className="upLoad" onClick={this.setUpload}>Upload A File</button>
-                    </nav>
-                    <figure>
+                <Navbar color="faded" light>
+                    <NavbarBrand href="/" className="mr-auto">
                         <img className="logo" src={logo}/>
-                    </figure>
+                    </NavbarBrand>
+                    <NavbarToggler  onClick={this.toggleNavbar} className="mr-2" />
+                    <Collapse  isOpen={!this.state.collapsed} navbar>
+                        <Nav navbar>       
+                        <NavItem >
+                        <ButtonGroup>
+                            <Button  className="dash" onClick={this.setDash} outline color="secondary">Dashboard</Button>
+                            <Button className="trucks" onClick={this.setTrucks} outline color="primary">Trucks</Button>
+                            <Button className="trips" onClick={this.setTrips} outline color="success">Trips</Button>
+                            <Button className="employees" onClick={this.setEmployees} outline color="warning">Employees</Button>
+                            <Button className="fuelPurchases" onClick={this.setFuelPurchases}  outline color="info">FuelPurchases</Button>
+                            <Button className="fedExAssignments" onClick={this.setFedExAssignments} outline color="danger">Assignments</Button>
+                            <Button className="companies" onClick={this.setCompanies} outline color="info">Companies</Button>
+                            <Button className="calculations" onClick={this.setCalculations} outline color="primary">Calculations</Button>
+                            <Button className="upload" onClick={this.setUpload} outline color="danger">Uploader</Button>
+                        </ButtonGroup>  
+                        </NavItem>   
+                        </Nav>
+                    </Collapse>
+                    </Navbar>
                 </header>
 
                 <main>
@@ -175,8 +194,8 @@ class App extends Component {
                     </div>
                     
                 </main>
-
-            </div>
+                </div>
+            
 
         );
     }

@@ -11,7 +11,7 @@ constructor (props) {
         return (<div>
                 <h3>Fuel Purchases</h3>
 
-                <table>
+                <table  className= "table table-striped bg-white table-bordered table-hoverable table-light">
                     <tr>
                         <th>Purchase Date</th>
                         <th>Ticket Check #</th>
