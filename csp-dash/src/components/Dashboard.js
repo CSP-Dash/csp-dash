@@ -3,7 +3,6 @@ import BarChartComponent from './BarChartComponent';
 import HorizontalBarChartComponent from './HorizontalBarChartComponent';
 import PolarChartComponent from './PolarChartComponent';
 import LineChartComponent from './LineChartComponent';
-import MilesChart from './MilesChart';
 
 class Dashboard extends Component {
 

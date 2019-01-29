@@ -11,7 +11,7 @@ constructor (props) {
         return (<div>
                 <h3>Companies</h3>
 
-                <table>
+                <table className= "table table-striped bg-white table-bordered table-hoverable table-light">
 
                     <tr>
                         <th>Contract Name</th>

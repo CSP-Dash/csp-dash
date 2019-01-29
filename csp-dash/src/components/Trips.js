@@ -12,7 +12,7 @@ constructor (props) {
         return (<div>
                 <h3>Trips</h3>
 
-                <table>
+                <table className= "table table-striped bg-white table-bordered table-hoverable table-light">
                     <tr>
                         <th>Truck #</th>
                         <th>Trip #</th>
